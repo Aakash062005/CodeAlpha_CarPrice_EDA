@@ -23,18 +23,19 @@ Perform Exploratory Data Analysis (EDA) on a Car Price dataset to understand the
 - Created visualizations for better understanding
 
 ### Visualizations
-1. Car Price Distribution
-2. Engine Size vs Price
-3. Price by Car Type
-4. Car Type Count
+1. Histogram of Car Prices
+2. Engine Size vs Price (Scatter Plot)
+3. Price by Car Type (Box Plot)
+4. Car Type Count (Count Plot)
 5. Correlation Heatmap
 6. Pair Plot
 
 ### Key Insights
-- Higher engine size generally leads to higher car prices.
-- Compact and Midsize cars are the most common categories.
-- Horsepower and engine size have a positive relationship with price.
-- Visualizations helped identify patterns, trends, and outliers in the dataset.
-
+- Most car prices are concentrated in the lower to mid-price range.
+- Cars with larger engine sizes generally have higher prices.
+- Premium car categories have higher average prices than compact cars.
+- Horsepower and engine size show a positive relationship with price.
+- The correlation heatmap highlights the strongest relationships among numerical features.
+- Pair plots help identify trends, distributions, and potential outliers in the dataset.
 ### Conclusion
 This Exploratory Data Analysis provided meaningful insights into the car price dataset through statistical analysis and data visualization using Python.
